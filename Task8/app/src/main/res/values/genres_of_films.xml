@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_items_genres">
+        <item>Драма</item>
+        <item>Комедия</item>
+        <item>Исторический</item>
+        <item>Триллер/Боевик</item>
+    </string-array>
+</resources>

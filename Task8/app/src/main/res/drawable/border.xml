@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/background" /> <!-- Цвет заливки (в данном случае белый) -->
+    <stroke
+        android:color="@color/light_grey" /> <!-- Цвет границы (в данном случае красный) -->
+    <stroke
+        android:width="2px" /> <!-- Ширина границы в пикселях -->
+    <corners android:radius="4dp" /> <!-- Радиус закругления границы в пикселях -->
+</shape>
+

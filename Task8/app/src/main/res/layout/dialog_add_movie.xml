@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".DialogAddMovie">
+
+    <Spinner
+        android:id="@+id/genreSpinner"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_border_blue"
+        android:entries="@array/spinner_items_genres"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/border"
+        android:hint="@string/movie_title"
+        android:maxLength="20"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_grey" />
+
+    <EditText
+        android:id="@+id/authorEditText"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/border"
+        android:hint="@string/movie_author"
+        android:maxLength="20"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_grey" />
+
+    <ImageView
+        android:id="@+id/selectedImageView"
+        android:layout_width="176dp"
+        android:layout_height="155dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/placeholder_image" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/addImageButton"
+        android:layout_width="273dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/border"
+        android:text="@string/select_image"
+        android:textAllCaps="false"
+        android:textColor="@color/blue_buttons"
+        android:textColorHint="@color/blue_buttons"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="273dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_border_blue"
+        android:text="@string/add"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    </LinearLayout>
